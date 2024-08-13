@@ -1,0 +1,534 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: "DM Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+.top-bar-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    font-size: x-large;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+
+/* .top-bar-container-optn{ */
+    /* display: flex;
+    justify-content: space-around;
+    width: 500px; */
+    /* font-size: larger; */
+    /* font-weight: 700; */
+/* } */
+.top-bar-container-optn label{
+    border: none;
+    color: black;
+    /* font-weight: 500;
+    font-size: large; */
+}
+
+.logo img{
+    width: 3rem;
+    height: 3rem;
+    margin: 0px 16px 0px -40px;
+}
+
+.book{
+    background-color: rgb(2, 84, 202);
+    padding: 8px 10px 8px 10px;
+    border-radius: 9px;
+    color: white;
+    font-size: larger;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.homePage-body{
+    height: 590px;
+    background-color: rgb(2, 84, 202);
+    display: flex;
+    flex-direction: column;
+}
+
+.homePage-heding-text{
+    width: 25rem;
+    font-size: 40px;
+    font-weight: 900;
+    /* background-color: rgba(61, 105, 143, 0.281); */
+    margin: 90px 0px 0px 50px;
+    text-align: center;
+    color: white;
+  font-family: "DM Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+.homePage-para-text{
+    width: 24rem;
+    color: white;
+    margin: 19px 0px 0px 50px;
+    font-family: "DM Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-size: small;
+  font-style: normal;
+  text-align: center;
+}
+
+.homePage-body-btn{
+    display: flex;
+    margin: 28px 0px 0px 50px;
+    width: 24rem;
+    font-family: "DM Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-size: 12px;
+  font-style: normal;
+}
+
+.homePage-body-btn1{
+    color: black;
+    background-color: white;
+    padding: 11px 10px 11px 10px;
+    border-radius: 9px;
+    cursor: pointer;
+}
+
+.homePage-body-btn2{
+    color: white;
+    border: 1px solid white;
+    padding: 11px 25px 11px 25px;
+    border-radius: 8px;
+    margin: 0px 0px 0px 30px;
+    cursor: pointer;
+}
+
+.circle1{
+    height: 90px;
+    width: 100px;
+    background-color: rgba(255, 255, 255, 0.21);
+    border-radius: 50%;
+    position: absolute;
+    top: 100px;
+    right:100px ;
+    
+}
+.circle2{
+    height: 50px;
+    width: 50px;
+    background-color: rgba(246, 245, 245, 0.186);
+    border-radius: 26% 74% 78% 22% / 52% 38% 62% 48% ;
+    position: absolute;
+    top: 190px;
+    right:700px ;
+    
+}
+.circle3{
+    height: 110px;
+    width: 150px;
+    background-color: rgba(235, 224, 224, 0.314);
+    border-radius: 60% 40% 27% 73% / 47% 84% 16% 53% ;
+    position: absolute;
+    top: 100px;
+    left:200px ;
+    
+}
+.circle4{
+    height: 110px;
+    width: 150px;
+    background-color: rgba(255, 255, 255, 0.247);
+    border-radius: 60% 40% 27% 73% / 47% 84% 16% 53%;
+    position: absolute;
+    top: 450px;
+    left:300px ;
+}
+.circle5{
+    height: 150px;
+    width: 100px;
+    background-color: rgba(255, 255, 255, 0.231);
+    border-radius: 61% 39% 31% 69% / 52% 54% 46% 48% ;
+    position: absolute;
+    top: 350px;
+    right:0px ;
+}
+.circle6{
+    height: 350px;
+    width: 350px;
+    border-radius: 26% 74% 78% 22% / 52% 38% 62% 48%;
+    background-color: rgba(255, 255, 255, 0.14);
+    position: absolute;
+    top: 250px;
+    right:300px ;
+}
+
+.doctor-img{
+    position: absolute;
+    top: 170px;
+    right: 300px;
+}
+.doctor-img img{
+    width: 300px;
+    height: 450px;
+}
+
+/* ----------------------------------------------- */
+
+.middle-search-bar{
+    position: relative;
+    bottom: 36px;
+    left: 230px;
+    display: flex;
+    width: 70%;
+    background-color: rgb(230, 230, 230);
+    /* border: 1px solid black; */
+    border-radius: 9px;
+    padding: 13px;
+    
+
+}
+
+.date input{
+    height: 40px;
+    width: 350px;
+    border-radius: 5px;
+    border: none;
+    background-color: white;
+    padding: 0px 10px 0px 12px;
+    margin: 0px 10px;
+    font-size: large;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+.searchbar-div input{
+    height: 40px;
+    width: 400px;
+    border-radius: 5px;
+    border: none;
+    padding: 0px 10px 0px 11px;
+    margin: 0px 15px;
+    font-size: large;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.button button{
+    height: 40px;
+    width: 140px;
+    background-color: rgb(4, 140, 206);
+    border-radius: 6px;
+    border: none;
+    color: white;
+    font-size: larger;
+    cursor: pointer;
+}
+/* --^^^^^^^^^^^^^^^^^^^^^^^^^^^--------- */
+
+/* ---------------------------------------- */
+.howitwork{
+    font-size: 50px;
+    font-weight: 700;
+    margin: 20px 0px ;
+    font-family: "DM Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  text-align: center;
+    
+}
+.howitwork-para{
+    width: 500px;
+    text-align: center;
+    margin-left: 33%;
+    margin-top: 20px;
+    line-height: 26px;
+    word-spacing: 1px;
+    font-family: "DM Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  text-align: center;
+}
+/* ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ */
+.doctor-container img, .calender-container img, .bag-container img{
+    width: 70px;
+    height: 70px;
+    padding: 14px;
+    margin: 0px 0px 0px 90px;
+    background-color: rgb(230, 240, 236);
+    border-radius: 8px;
+
+}
+
+.after-homserchbar-container{
+    display: flex;
+    width: 80%;
+    justify-content: space-between;
+    margin: 30px 0px 0px 140px;
+    background-color: rgba(102, 51, 153, 0);
+}
+.doctor-icon-heading, .calendar-icon-heading, .bag-icon-heading{
+    text-align: center;
+    font-family: "DM Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+.doctor-icon-para, .calendar-icon-para, .bag-icon-para{
+    width: 250px;
+    text-align: center;
+    font-family: "DM Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+.dot1, .dot2, .dot3, .dot4, .dot5, .dot6, .dot7, .dot8, .dot9, .dot10, .dot11, .dot12{
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    background-color: rgb(161, 161, 161);
+    margin: 28px 10px 0px;
+}
+/* ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ */
+/* ----------------------------------------- */
+.containe1{
+    display: flex;
+    margin: 120px 100px 0px 100px;
+
+}
+.doc-group-image-div1 img{
+    border-radius: 5px;
+}
+.doc-group-image-div1{
+    margin: 0px 79px 0px 0px;
+}
+.about-info-div2{
+    display: flex;
+    flex-direction: column;
+    
+}
+.con1-about-text p{
+    color: rgb(2,100,255);
+    font-weight: 600;
+    font-size: large;
+    font-family: "DM Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+.con1-heading h1{
+    text-align: center;
+    font-weight: 900;
+    font-size: 44px;
+    width: 500px;
+    /* background-color: rebeccapurple; */
+    line-height: 60px;
+    font-family: "DM Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  text-align: center;
+}
+.con1-para p{
+    font-size:14px;
+    text-align: center;
+    width: 480px;
+    margin: 10px 0px 0px 0px;
+    font-family: "DM Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  text-align: center;
+}
+.con1-number-div-cont{
+    display: flex;
+    margin: 30px 0px 0px 0px;
+}
+.con1-number-div1{
+    margin: 0px 60px 0px 0px;
+}
+.con1-numb-2000 h1, .con1-numb-50 h1{
+    font-size: 40px;
+    font-weight: 700;
+    color: rgb(69, 125, 251);
+    font-family: "DM Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  text-align: center;
+}
+.con1-btn button{
+    width: 150px;
+    background-color: rgb(66, 120, 244);
+    margin: 30px;
+    height: 34px;
+    font-size: small;
+    color: white;
+    border: none;
+    border-radius: 9px;
+    cursor: pointer;
+}
+/* ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ */
+/* ------------------------------------------------ */
+.our-top-doc h1{
+    margin: 40px 0px 10px 100px;
+    font-family: "DM Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+
+}
+.container2{
+    display: flex;
+    margin: 20px 70px 0px 70px;
+    justify-content: space-around;
+    background-color: rgba(116, 165, 210, 0.154);
+    border-radius: 8px;
+}
+.cont2-doc1-img img, .cont2-doc2-img img, .cont2-doc3-img img, .cont2-doc4-img img{
+    width: 250px;
+    height: 280px;
+    object-fit: cover;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    
+}
+.containe2-doc1, .containe2-doc2, .containe2-doc3, .containe2-doc4{
+    height: 380px;
+    background-color: rgb(250, 255, 244);
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+    border-top-right-radius: 12px;
+    border-top-left-radius: 12px;
+    box-shadow: 2px 2px 7px 3px rgb(114, 113, 113);
+    text-align: center;
+    /* line-height: 22px; */
+    font-family: "DM Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    transition-duration: 10ms;
+}
+.containe2-doc1:hover, .containe2-doc2:hover, .containe2-doc3:hover, .containe2-doc4:hover{
+    box-shadow: 2px 2px 9px 5px rgb(57, 57, 57);
+}
+.cont2-doc1-button button, .cont2-doc2-button button, .cont2-doc3-button button, .cont2-doc4-button button{
+    width: 160px;
+    height: 27px;
+    margin-top: px;
+    color:rgb(100, 100, 254);
+    border: 2px solid rgb(118, 150, 254);
+    border-radius: 8px;
+}
+/* --^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^--- */
+/* ------------------------------------------- */
+.container3{
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    font-family: "DM Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-size: larger;
+    background-color: rgb(4, 82, 206);
+    padding: 60px;
+    margin: 80px 0px 0px;
+}
+
+.contner3-content1, .contner3-content2, .contner3-content3, .contner3-content4{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contner3-para1, .contner3-para2, .contner3-para3, .contner3-para4{
+    margin: 10px 0px 0px;
+    font-size: medium;
+}
+/* ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ */
+/* ----------------------------------------------------- */
+.container4{
+    display: flex;
+    justify-content: center;
+    margin: 50px 0px 50px;
+}
+.contner4-input-field input{
+    width: 500px;
+    height: 44px;
+    border-radius: 6px;
+    border: 1px solid black;
+    padding: 0px 10px 0px 12px;
+    font-size: large;
+    font-family: "DM Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+.contner4-button button{
+    /* width: 130px;
+    height: 44px; */
+    margin: 0px 0px 0px 33px;
+    border-radius: 6px;
+    border: 1px solid black;
+    /* background-color: rgb(4, 160, 206); */
+    color: white;
+    font-size: large;
+}
+/* ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ */
+/* ------------------------------------------------------------ */
+
+.container5 {
+    width: 100%;
+    margin: auto;
+    /* padding: 20px; */
+}
+
+footer {
+    background-color: #000000;
+    padding: 20px 0;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+    color: #ffffff;
+
+}
+
+.footer-middle1, .footer-middle2, .footer-middle3{
+    display: flex;
+    flex-direction: column;
+    line-height: 30px;
+}
+
+.footer-middle1 p, .footer-middle2 p, .footer-middle3 p{
+    font-weight: 700;
+    font-size: larger;
+}
+.footer-middle1 a, .footer-middle2 a, .footer-middle3 a{
+    /* font-weight: 700; */
+    font-size: 16px;
+    color: rgb(208, 209, 183);
+    text-decoration: none;
+}
+
+.footer-left p {
+    margin: 5px 0px 0px 13px;
+}
+
+.footer-right ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-right ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+.footer-right ul li a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: medium;
+}
+
+.footer-right ul li a:hover {
+    color: rgb(118, 210, 180);
+
+}

@@ -1,0 +1,116 @@
+/* for user proper ragistration */
+.u-cross{
+    position: relative;
+    left: 650px;
+    font-size: x-large;
+    background-color: rgb(254, 248, 236);
+    width: 33px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.USER #user-reg-form{
+    background-color: rgb(0, 0, 0);
+    height: 560px;
+    position: absolute;
+    top: -600px;
+    left: 25%;
+    transition-duration: 1s;
+}
+
+/* FOR JAVASCRIPT */
+
+.user-reg-page{
+    position: absolute;
+    top: 650px;
+    left: 25%;
+    transition: 0.8s;
+
+}
+
+/* FOR JAVASCRIPT */
+.user-reg-password-div{
+    position: relative;
+    bottom: 140px;
+    left: 380px;
+    
+}
+.user-reg-password-div input{
+    height: 30px;
+    width: 250px;
+    border-radius: 10px;
+    font-size: larger;
+}
+.user-reg-password-div label{
+    display: block;
+    font-size: x-large;
+    /* font-weight: 100; */
+}
+
+.user-registration-button button{
+    position: relative;
+    bottom: 90px;
+    width: 200px;
+    height: 40px;
+    background-color: rgb(225, 250, 2);
+    border: 2px solid rgb(255, 248, 255);
+    border-radius: 10px;
+}
+.user-registration-button{
+    margin: 0px 0px 0px 35%;
+}
+
+/* for user proper ragistration */
+
+/* for user proper Login */
+
+.user-login-div{
+    height: 490px;
+    width: 348px;
+    /* padding: 20px; */
+    border-radius: 20px;
+    background-color: rgb(0, 0, 0);
+    position: absolute;
+    top: -490px;
+    left: 40%;
+    transition-duration: 0.5s;
+}
+.user-login-cross-1{
+    margin: 5px 0px 0px 313px;
+    background-color: white;
+    width: 26px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.user-login-text{
+    margin: 0px 0px 0px 40%;
+    padding: 20px 0px 0px 0px;
+    font-size: x-large;
+    color: white;
+    font-weight: 900;
+    font-family: "Noto Sans Cham", sans-serif;
+    font-optical-sizing: auto;
+    /* font-weight: 800; */
+    font-style: normal;
+}
+
+.user-login-button button{
+    width: 140px;
+    height: 40px;
+    border-radius: 10px;
+    background-color: rgb(206, 227, 21);
+    font-size: large;
+    font-weight: 800;
+    border: 3px solid white;
+
+}
+
+/* for javascript  */
+.show-user-LoginPage{
+    position: absolute;
+    top: 50px;
+    transition-duration: 0.6s;
+}
+/* for javascript  */
+
+/* for user proper Login */
